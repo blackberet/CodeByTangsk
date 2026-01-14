@@ -1,0 +1,43 @@
+tasks:
+  - name: "需求澄清"
+    agent: "需求分析师"
+    description: |
+      你将收到一个开发需求：{user_requirement}
+
+      请把它整理成一份可直接交付给程序员的开发说明，必须包含：
+      1) 功能拆分（要点列表）
+      2) 关键数据结构/类/函数建议（含参数与返回值）
+      3) 边界条件与错误处理策略
+      4) 验收标准（可检查的要点列表）
+    expected_output: "一份结构化的开发说明，分段清晰，便于实现"
+
+  - name: "生成代码"
+    agent: "程序员"
+    description: |
+      基于上一步“开发说明”和原始需求：{user_requirement}
+
+      生成一个 Python 源码文件内容，文件名为：{output_filename}
+      约束：
+      - 只输出代码，不要 Markdown，不要解释文字
+      - 使用 Python 3.11+ 语法
+      - 尽量使用标准库
+      - 代码必须包含类型注解
+
+      功能目标（实现一个最小但实用的示例）：
+      - 实现一个 TodoList 类，支持 add/remove/list/mark_done
+      - 支持 save/load 到 JSON 文件（路径由构造参数传入）
+      - 提供一个简单 CLI：python {output_filename} add "任务"
+    expected_output: "完整可运行的 Python 源码（纯文本）"
+
+  - name: "审查并改进"
+    agent: "代码审查员"
+    description: |
+      审查上一任务生成的代码，重点检查：
+      - 异常与边界处理是否完善
+      - CLI 交互是否清晰、错误提示是否友好
+      - JSON 持久化是否稳健（文件不存在、损坏、并发写入的最小处理）
+      - 类型注解与代码结构是否清晰
+
+      输出改进后的最终代码版本。
+      约束：只输出代码，不要 Markdown，不要解释文字。
+    expected_output: "改进后的完整可运行 Python 源码（纯文本）"

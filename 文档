@@ -2,3 +2,138 @@ https://docs.crewai.org.cn/
 
 
 https://blog.csdn.net/sinat_28461591/article/details/147139854?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4-147139854-blog-156794819.235^v43^pc_blog_bottom_relevance_base3&spm=1001.2101.3001.4242.3&utm_relevant_index=7
+
+
+
+一、全宇宙最灵活的 AI 助手 ——Continue
+
+地址：https://github.com/continuedev/continue
+🔥 核心能力：
+
+支持自定义 AI 模型、规则、提示词，打造专属代码助手
+
+VS Code/JetBrains 双 IDE 加持，内置 Anthropic Claude 3.7 等顶尖模型
+
+亮点功能 “Agent” 可跨文件批量重构，复杂需求一次搞定
+
+💡 场景：想训练私有 AI 助手？玩透提示词工程？选它！
+
+二、大型项目救星 ——Plandex
+
+地址：https://github.com/plandex-ai/plandex
+🚀 硬核特性：
+
+支持2M 令牌上下文（约 100k 行代码），处理微服务架构无压力
+
+内置树状项目地图（tree-sitter），快速定位代码依赖
+
+支持全自动化模式，从规划到测试一键完成
+
+💡 场景：重构百万行级项目？用 Plandex 解放双手！
+
+三、JetBrains 专属神器 ——Sweep
+
+地址：https://github.com/sweepai/sweep
+🤖 独特优势：
+
+深度集成 JetBrains 全家桶，代码补全、调试无缝衔接
+
+擅长解析复杂类继承关系，生成测试用例准确率高达 92%
+
+支持 GitHub PR 自动生成，团队协作神器
+
+💡 场景：Java/Go 后端开发者，再也不用手动写单元测试了！
+
+四、Sourcegraph 亲儿子 ——Cody
+
+地址：GitHub - sourcegraph/cody: Type less, code more: Cody is an AI code assistant that uses advanced search and codebase context to help you write and fix code.
+
+🔍 技术亮点：
+
+基于 Sourcegraph 搜索内核，代码库上下文理解无死角
+
+支持多模型切换（Claude/GPT-4o/Mixtral），兼顾速度与精度
+
+首创 “Smart Apply” 功能，自动合并安全变更
+
+💡 场景：分布式系统开发，需要跨仓库协同的团队必装！
+
+五、终端里的 Pair 程序员 ——Aider
+
+地址：https://github.com/Aider-AI/aider
+🖥️ 极客最爱：
+
+纯终端交互，支持 Python/JS/Rust 等 30 + 语言
+
+内置 Git 集成，每一步变更自动生成 Commit
+
+语音输入功能，解放双手专注思考
+
+💡 场景：命令行信徒？远程 SSH 开发？Aider 就是你的 “AI 结对伙伴”！
+
+六、自托管首选 ——Tabby
+
+地址：https://github.com/TabbyML/tabby
+👍🏻企业级特性：
+
+完全自托管，代码隐私零泄露
+
+支持本地 GPU 推理（如 Llama 2），无需依赖云端 API
+
+提供 VS Code 插件 + 独立 Web 界面，灵活部署
+
+💡 场景：金融 / 政府等对数据安全敏感的场景，Tabby 是刚需！
+
+七、端到端工程专家 ——Refact
+
+地址：https://github.com/smallcloudai/refact
+🚧 全能选手：
+
+从需求分析到代码提交全流程自动化
+
+支持数据库迁移（PostgreSQL/MySQL）、容器化部署
+
+内置浏览器自动化工具，前端调试神器
+
+💡 场景：全栈开发者必备，一人搞定前后端 + 部署！
+
+八、IDE 与 CLI 的终极融合 ——Cline
+
+地址：https://github.com/cline/cline
+🌐 未来已来：
+
+直接在 VS Code 中调用终端命令，实时监控执行结果
+
+支持浏览器自动化测试，自动捕获控制台日志
+
+基于 Model Context Protocol，可自定义扩展工具链
+
+💡 场景：全链路开发测试一体化，现代工程师的效率革命！
+
+九、后起之秀 ——Costrict
+
+地址：https://github.com/zgsm-ai/costrict
+🏃🏻逐新趋势：
+
+免费开源的 AI 编程助手
+
+有代码补全、智能问答等功能，支持多语言
+
+安全可靠，支持私有化部署
+
+💡 场景：企业私有化模型，对代码安全性比较敏感。
+
+结语：AI 不是替代，而是让开发者更强大
+
+看完这 9 款神器，你是否感受到开源社区的创造力？AI 编程助手并非 “抢饭碗”，而是将开发者从重复劳动中解放，专注于架构设计、逻辑优化、需求拆解等核心能力。
+
+💼卷王提示：建议根据场景组合使用，例如：
+
+👤个人开发：Continue（灵活）+ Aider（轻量）
+
+🧑‍🤝‍🧑团队项目：Cody（协同）+ Plandex（大型项目）
+
+🧑‍🧑‍🧒‍🧒企业级部署：Tabby（自托管）+ Refact（全流程）或者 Costrict
+
+🌟赶快星标这些项目，让 AI 成为你的 “coding 副驾” 吧！评论区聊聊你最想尝试的工具 ！
+
